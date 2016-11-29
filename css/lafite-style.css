@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.inline{
+  float: left;
+}
+
+.inline::before, .inline::after{
+  display: table;
+  content: " ";
+}
+
+.inline::after{
+  clear: both;
+}
+
+div.container{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 15px;
+}

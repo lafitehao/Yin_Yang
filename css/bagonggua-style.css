@@ -1,0 +1,52 @@
+table.bagong-table{
+  margin: 1% auto;
+  border: 1px solid black;
+  width: 80%;
+  height: 80%;
+}
+
+table.bagong-table tr{
+  height: 10%;
+}
+
+table.bagong-table th,
+table.bagong-table td{
+  padding: 1% 1%;
+  width: 10%;
+  text-align: center;
+}
+
+table.bagong-table th{
+  border: 2px solid black;
+}
+
+table.bagong-table td{
+  border: 1px solid black;
+}
+
+div.dao{
+  position: relative;
+  margin: auto 0;
+  width: 100%;
+  height: 100%;
+}
+
+div.dao .yao{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4%;
+  margin-top: 4%;
+  width: 60%;
+  height: 9.5%;
+}
+
+div.dao .yao.yang{
+  background-color: rgb(0, 0, 0);
+}
+
+div.dao .yao.yin{
+  background: -webkit-linear-gradient(right, #000 40%, white 0, white 60%, #000 0); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, #000 33.3%, white 0, white 66.6%, #000 0); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right, #000 33.3%, white 0, white 66.6%, #000 0); /* Firefox 3.6 - 15 */
+  background: linear-gradient(right, #000 33.3%, white 0, white 66.6%, #000 0); /* 标准的语法 */
+}
